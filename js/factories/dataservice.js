@@ -298,7 +298,7 @@
         {
             type: "jQuery",
             image_url: "https://res.cloudinary.com/visitltu/image/upload/v1532857622/QZ/jQuery.jpg",
-            locations: "Show, Hide, Toogle, Fade, Slideshow, Js Library",
+            locations: "Show, Hide, Toggle, Fade, Slideshow, Js Library",
             size: "Interactive Website | Loading Page Speed..",
             lifespan: "John Resig",
             prey: "Slideshow Galleries, Contact Forms, Interactive Web Design..",
