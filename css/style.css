@@ -36,8 +36,10 @@
 }
 
 .progress-bar {
-    position: relative;
-    display: inline-flex;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
     width: 80%;
 }
