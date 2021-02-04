@@ -142,7 +142,7 @@
         </div><!-- List Controller -->
 
         <!-- Attach the quizCtrl to the view and ng-show when the quizActive flag is set -->
-        <div class="container"><br>
+        <div class="container"><br><hr>
         <div ng-controller="quizCtrl as quiz" ng-show="quiz.quizMetrics.quizActive">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-8">
@@ -189,10 +189,10 @@
                     Error! You have not answered all of the questions!
                     <button class="close" ng-click="quiz.error = false">&times</button>
                 </div>
-                <h3>Question:</h3>
+                <h3>Question:</h3><br><hr>
                 <div class="well well-sm" ng-hide="quiz.finalise">
                     <div class="row">
-                        <div class="col">
+                        <div class="col p-5">
                             <!-- angular {{}} notation for expressions to be evaluated -->
 		                    <!-- adds 1 to activeQuestion as it is zero index. Then displays the question -->
 		                    <!-- will be in the form of "3. this is the third question" -->
