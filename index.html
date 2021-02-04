@@ -205,7 +205,7 @@
 		                    <!-- or text being entered as an image url and causing issues -->
                             <div class="row"
                                 ng-if="quiz.dataService.quizQuestions[quiz.activeQuestion].type === 'text'">
-                                <div class="col-sm-6" ng-repeat="answer in quiz.dataService.quizQuestions[quiz.activeQuestion].possibilities">
+                                <div class="col-sm-6 rounded-0" ng-repeat="answer in quiz.dataService.quizQuestions[quiz.activeQuestion].possibilities">
                                     <h4 class="answer"
                                         ng-class="{'bg-info': $index === quiz.dataService.quizQuestions[quiz.activeQuestion].selected}"
                                         ng-click="quiz.selectAnswer($index)">
