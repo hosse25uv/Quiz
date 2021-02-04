@@ -270,7 +270,7 @@
     var turtlesData = [
         {
             type: "Computer Science",
-            image_url: "https://res.cloudinary.com/visitltu/image/upload/v1532855677/QZ/CS.jpg",
+            image_url: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532855677/QZ/CS.jpg",
             locations: "Software Development, IT Security, C++, Python",
             size: "Guaranteed job | Hard to learn",
             lifespan: "Alan Turing",
@@ -279,7 +279,7 @@
         },
         {
             type: "JavaScript",
-            image_url: "https://res.cloudinary.com/visitltu/image/upload/v1532855967/QZ/JS.jpg",
+            image_url: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532855967/QZ/JS.jpg",
             locations: "Node JS, ES6, jQuery, React, Front-End Framework",
             size: "Node JS | Too Many Frameworks!",
             lifespan: "Brendan Eich",
@@ -288,7 +288,7 @@
         },
         {
             type: "PHP 7",
-            image_url: "https://res.cloudinary.com/visitltu/image/upload/v1532857218/QZ/PHP7.jpg",
+            image_url: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857218/QZ/PHP7.jpg",
             locations: "Laravel, MySql, Databse, Symfony, Back-End, SQL",
             size: "Many Jobs | Not Suitable For Large Projects",
             lifespan: "Rasmus Lerdorf",
@@ -297,7 +297,7 @@
         },
         {
             type: "jQuery",
-            image_url: "https://res.cloudinary.com/visitltu/image/upload/v1532857622/QZ/jQuery.jpg",
+            image_url: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857622/QZ/jQuery.jpg",
             locations: "Show, Hide, Toggle, Fade, Slideshow, Js Library",
             size: "Interactive Website | Loading Page Speed..",
             lifespan: "John Resig",
@@ -306,7 +306,7 @@
         },
         {
             type: "Bootstrap",
-            image_url: "https://res.cloudinary.com/visitltu/image/upload/v1532857851/QZ/BOOTSTRAP.jpg",
+            image_url: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857851/QZ/BOOTSTRAP.jpg",
             locations: "Responsive Web Design, CSS Framework, Mobile First",
             size: "Easy To Learn, Very Responsive | No Cons!",
             lifespan: "Jacob Thornton",
@@ -315,7 +315,7 @@
         },
         {
             type: "Github",
-            image_url: "https://res.cloudinary.com/visitltu/image/upload/v1532858221/QZ/Github.jpg",
+            image_url: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532858221/QZ/Github.jpg",
             locations: "Free Hosting, Git, Microsoft, Repositories, Ruby...",
             size: "Your Free Portfolio | Well.. nothing really",
             lifespan: "Tom Preston-Werner",
@@ -324,7 +324,7 @@
         },
         {
             type: "CMD / Terminal",
-            image_url: "https://res.cloudinary.com/visitltu/image/upload/v1532858416/QZ/CMD.jpg",
+            image_url: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532858416/QZ/CMD.jpg",
             locations: "Command Prompt, Git, Powershell, Vim, Console, Bash..",
             size: "Quick and Simple | Many Commands to Learn",
             lifespan: "Windows / Mac OS X",
@@ -333,7 +333,7 @@
         },
         {
             type: "Cyber Security",
-            image_url: "https://res.cloudinary.com/visitltu/image/upload/v1532858598/QZ/CYBER.jpg",
+            image_url: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532858598/QZ/CYBER.jpg",
             locations: "IT Security, Trojan, Backdoor, Virus, SSL, DDOS Attack ",
             size: "a Great Career Path | Very Long Hours",
             lifespan: "Ray Tomlinson",
