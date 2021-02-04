@@ -62,24 +62,24 @@
      *
      */
 
-    var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 2, 0, 3];
+    var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 1, 0, 3];
 
     var quizQuestions  = [
         {
             type: "text",
-            text: "How many bits are in 1 byte.?",
+            text: "1 byte contains",
             possibilities: [
                 {
-                    answer: "There are 16 bits for every 1 byte."
+                    answer: "16 bits"
                 },
                 {
-                    answer: "There are 8 bits for every 1 byte."
+                    answer: "8 bits"
                 },
                 {
-                    answer: "There are 32 bits for every 1 byte."
+                    answer: "32 bits"
                 },
                 {
-                    answer: "None, bits are bigger than bytes"
+                    answer: "4 bits"
                 }
             ],
             selected: null,
@@ -106,40 +106,40 @@
             correct: null
         },
         {
-            type: "image",
-            text: "What Programming Language syntax refer to: var_dump($app->getLogger());?",
+            type: "text",
+            text: "var_dump($app->getLogger());? refers to:",
             possibilities: [
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532855967/QZ/JS.jpg"
+                    answer: "JavaScript"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857622/QZ/jQuery.jpg"
+                    answer: "jQuery"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857851/QZ/BOOTSTRAP.jpg"
+                    answer: "Java"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857218/QZ/PHP7.jpg"
+                    answer: "PHP"
                 }
             ],
             selected: null,
             correct: null
         },
         {
-            type: "image",
+            type: "text",
             text: "Most similar syntax to C language?",
             possibilities: [
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857218/QZ/PHP7.jpg"
+                    answer: "PHP"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532855967/QZ/JS.jpg"
+                    answer: "Javascript"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532858221/QZ/Github.jpg"
+                    answer: "Java"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857851/QZ/BOOTSTRAP.jpg"
+                    answer: "Kotlin"
                 }
             ],
             selected: null,
@@ -147,19 +147,19 @@
         },
         {
             type: "text",
-            text: "What type of programming language is Python?",
+            text: "Python programming language is",
             possibilities: [
                 {
-                    answer: "Python is an interpreted low-level programming language"
+                    answer: "An interpreted low-level programming language"
                 },
                 {
-                    answer: "Python is an machine language"
+                    answer: "Object-oriented programming language"
                 },
                 {
-                    answer: "Python is an interpreted high-level programming language"
+                    answer: "An interpreted high-level programming language"
                 },
                 {
-                    answer: "Python is an assembley programming language"
+                    answer: "An assembley programming language"
                 }
             ],
             selected: null,
@@ -167,7 +167,7 @@
         },
         {
             type: "text",
-            text: "What answer is correct?",
+            text: "Choose correct answer",
             possibilities: [
                 {
                     answer: "jQuery is a cross-platform JavaScript library"
@@ -187,7 +187,7 @@
         },
         {
             type: "text",
-            text: "How to Initialize the local Directory as a Git Repository?",
+            text: "How to Initialize the local directory as a Git Repository?",
             possibilities: [
                 {
                     answer: "$ git push origin master"
@@ -210,16 +210,16 @@
             text: "What type of virus was WannaCry?",
             possibilities: [
                 {
-                    answer: "WannaCry was a malware"
+                    answer: "Malware"
                 },
                 {
-                    answer: "WannaCry was a ransomware cryptoworm"
+                    answer: "Ransomware cryptoworm"
                 },
                 {
-                    answer: "WannaCry was a worm virus"
+                    answer: "Worm"
                 },
                 {
-                    answer: "WannaCry was a backdoor"
+                    answer: "Backdoor"
                 }
             ],
             selected: null,
@@ -259,7 +259,7 @@
                     answer: "SQL script"
                 },
                 {
-                    answer: "MySQL is an open-source relational database management system (RDBMS)"
+                    answer: "Relational database management system (RDBMS)"
                 }
             ],
             selected: null,
