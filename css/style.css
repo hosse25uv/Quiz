@@ -34,3 +34,6 @@
 .image-answer.bg-danger{
     border: 3px solid #b74848;
 }
+.progress-bar {
+    width: 80%;
+}
