@@ -253,7 +253,7 @@
                     answer: "MySQL and SQL are the same language."
                 },
                 {
-                    answer: "MySQL is the databse for PHP"
+                    answer: "MySQL is the database for PHP"
                 },
                 {
                     answer: "SQL script"
@@ -281,7 +281,7 @@
             type: "JavaScript",
             image_url: "https://res.cloudinary.com/visitltu/image/upload/v1532855967/QZ/JS.jpg",
             locations: "Node JS, ES6, jQuery, React, Front-End Framework",
-            size: "Scripting Language | Too Many Frameworks!",
+            size: "Node JS | Too Many Frameworks!",
             lifespan: "Brendan Eich",
             prey: "Web Browser, Front-End, Application Development, Web Design",
             description: "JavaScript often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm. Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web. JavaScript enables interactive web pages and thus is an essential part of web applications.The vast majority of websites use it, and all major web browsers have a dedicated JavaScript engine to execute it. As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. It has an API for working with text, arrays, dates, regular expressions, and basic manipulation of the DOM.."
