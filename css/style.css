@@ -34,6 +34,10 @@
 .image-answer.bg-danger{
     border: 3px solid #b74848;
 }
+
 .progress-bar {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
     width: 80%;
 }
