@@ -110,16 +110,16 @@
             text: "What Programming Language syntax refer to: var_dump($app->getLogger());?",
             possibilities: [
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/v1532855967/QZ/JS.jpg"
+                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532855967/QZ/JS.jpg"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/v1532857622/QZ/jQuery.jpg"
+                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857622/QZ/jQuery.jpg"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/v1532857851/QZ/BOOTSTRAP.jpg"
+                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857851/QZ/BOOTSTRAP.jpg"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/v1532857218/QZ/PHP7.jpg"
+                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857218/QZ/PHP7.jpg"
                 }
             ],
             selected: null,
@@ -130,16 +130,16 @@
             text: "Most similar syntax to C language?",
             possibilities: [
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/v1532857218/QZ/PHP7.jpg"
+                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857218/QZ/PHP7.jpg"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/v1532855967/QZ/JS.jpg"
+                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532855967/QZ/JS.jpg"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/v1532858221/QZ/Github.jpg"
+                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532858221/QZ/Github.jpg"
                 },
                 {
-                    answer: "https://res.cloudinary.com/visitltu/image/upload/v1532857851/QZ/BOOTSTRAP.jpg"
+                    answer: "https://res.cloudinary.com/visitltu/image/upload/c_scale,h_300,w_400/v1532857851/QZ/BOOTSTRAP.jpg"
                 }
             ],
             selected: null,
