@@ -29,9 +29,9 @@
 <div class="container">
 <form class="mx-2 my-auto d-inline w-100">
     <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search..." ng-model="list.search" >
+        <input type="text" class="form-control rounded-0" placeholder="Search..." ng-model="list.search" >
         <span class="input-group-append">
-            <button class="btn btn-outline-secondary" ng-click="list.activateQuiz()" type="button">Start Quiz</button>
+            <button class="btn btn-outline-secondary rounded-0" ng-click="list.activateQuiz()" type="button">Start Quiz</button>
         </span>
     </div>
 </form>
@@ -109,7 +109,7 @@
                                 <div class="card top-buffer">
                                 	<!-- angular data binding and data-dismiss for bootstrap -->
                                     <p class="text-muted">{{list.activeTurtle.description}}</p>
-                                    <button class="btn btn-danger float-right"
+                                    <button class="btn btn-danger float-right rounded-0"
                                         data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
@@ -125,14 +125,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close rounded-0" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary rounded-0" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary rounded-0">Save changes</button>
       </div>
     </div>
   </div>
@@ -153,7 +153,7 @@
 		                <!-- ng-class conditionally displaying bootstrap classes when a question has been answered or not -->
 		                <!-- ng-click to call method setActiveQuestion to move to selected question -->
 		                <!-- the $index argument is an angular variable that contains the index of the current ng-repeat iteration -->
-                        <button type="button" class="btn btn-danger"
+                        <button type="button" class="btn btn-danger rounded-0"
                             ng-repeat="question in quiz.dataService.quizQuestions"
                             ng-class="{'btn-info': question.selected !== null, 'btn-danger': question.selected === null}"
                             ng-click="quiz.setActiveQuestion($index)">
@@ -168,13 +168,13 @@
                     <div class="row">
                         <h4>Legend:</h4>
                         <div class="col-sm-4">
-                            <button class="btn btn-info">
+                            <button class="btn btn-info rounded-0">
                                 <span class="glyphicon glyphicon-pencil"></span>
                             </button>
                             <p>Answered</p>
                         </div>
                         <div class="col-sm-4">
-                            <button class="btn btn-danger">
+                            <button class="btn btn-danger rounded-0">
                                 <span class="glyphicon glyphicon-question-sign"></span>
                             </button>
                             <p>Unanswered</p>
@@ -187,7 +187,7 @@
                 <div class="alert alert-danger"
                     ng-show="quiz.error">
                     Error! You have not answered all of the questions!
-                    <button class="close" ng-click="quiz.error = false">&times</button>
+                    <button class="close rounded-0" ng-click="quiz.error = false">&times</button>
                 </div><hr>
                 <h3>Question:</h3><hr>
                 <div class="well well-sm" ng-hide="quiz.finalise">
@@ -232,7 +232,7 @@
                         </div>
                     </div>
                     <!-- ng-click will call the questionAnswered method on the controller -->
-                    <button class="btn btn-warning mx-4" ng-click="quiz.questionAnswered()">Continue</button>
+                    <button class="btn btn-warning mx-4 rounded-0" ng-click="quiz.questionAnswered()">Continue</button>
                 </div><br>
 
 				<!-- this section is the prompt to be show when the user finishes the quiz to ensure they want to continue -->
@@ -243,8 +243,8 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h3>Are you sure you want to submit your answers?</h3>
-                            <button class="btn btn-success" ng-click="quiz.finaliseAnswers()">Yes</button>
-                            <button class="btn btn-danger" ng-click="quiz.finalise = false">No</button>
+                            <button class="btn btn-success rounded-0" ng-click="quiz.finaliseAnswers()">Yes</button>
+                            <button class="btn btn-danger rounded-0" ng-click="quiz.finalise = false">No</button>
                         </div>
                     </div>
                 </div>
@@ -267,7 +267,7 @@
                             <!-- ng-class conditionally displaying bootstrap classes when a question has been answered or not -->
                             <!-- ng-click to call method setActiveQuestion to move to selected question -->
                             <!-- the $index argument is an angular variable that contains the index of the current ng-repeat iteration -->
-                            <button class="btn" ng-repeat="question in results.dataService.quizQuestions" ng-class="{'btn-success': question.correct, 'btn-danger': !question.correct}"
+                            <button class="btn rounded-0" ng-repeat="question in results.dataService.quizQuestions" ng-class="{'btn-success': question.correct, 'btn-danger': !question.correct}"
                             ng-click="results.setActiveQuestion($index)">
                             <!-- display glyphicons -->
                             <!-- ng-class is utilsed again to style the glyphicons conditionally -->
@@ -281,13 +281,13 @@
                     <div class="row">
                         <h4>Legend:</h4>
                         <div class="col-sm-4">
-                            <button class="btn btn-info">
+                            <button class="btn btn-info rounded-0">
                                 <span class="glyphicon glyphicon-pencil"></span>
                             </button>
                             <p>Answered</p>
                         </div>
                         <div class="col-sm-4">
-                            <button class="btn btn-danger">
+                            <button class="btn btn-danger rounded-0">
                                 <span class="glyphicon glyphicon-question-sign"></span>
                             </button>
                             <p>Unanswered</p>
@@ -349,7 +349,7 @@
                </div><!-- well -->
             <br>
 				<!-- ng-click calling the reset method on the controller -->
-               <button class="btn btn-block btn-primary btn-lg" ng-click="results.reset()">Go Back To Facts</button>
+               <button class="btn btn-block btn-primary btn-lg rounded-0" ng-click="results.reset()">Go Back To Facts</button>
            </div><br>
         </div>
     </div>
